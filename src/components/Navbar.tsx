@@ -75,7 +75,7 @@ const Navbar = () => {
           {/* Right side */}
           <div className="flex items-center gap-2">
             <a
-              href="\Bindusha_Resume.pdf"
+              href="/Portfolio/Bindusha_Resume.pdf"
               className="flex glow-button items-center gap-2 text-xs !px-4 !py-2" target = "_blank"
             >
               <Download size={14} />
@@ -105,7 +105,7 @@ const Navbar = () => {
                 {item}
               </button>
             ))}
-            <a href="\Bindusha_Resume.pdf" className="glow-button mt-6 flex items-center justify-center gap-2 text-sm" target='_blank'>
+            <a href="/Portfolio/Bindusha_Resume.pdf" className="glow-button mt-6 flex items-center justify-center gap-2 text-sm" target='_blank'>
               <Download size={14} /> Resume
             </a>
           </div>
