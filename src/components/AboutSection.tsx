@@ -1,5 +1,6 @@
 import ScrollReveal from '@/components/ScrollReveal';
 import { User } from 'lucide-react';
+import profileImg from "../profile.jpeg";
 
 const AboutSection = () => {
   return (
@@ -20,7 +21,7 @@ const AboutSection = () => {
               <div className="shrink-0">
                 <div className="w-52 h-52 md:w-60 md:h-60 rounded-full border-2 border-primary/30 bg-muted/50 flex items-center justify-center overflow-hidden shadow-[0_0_20px_hsl(var(--neon)/0.15)]">
                   {/* Replace the User icon with an <img src="your-photo.jpg" alt="Your Name" className="w-full h-full object-cover" /> */}
-                  <img src="src\Profile image.jpeg" alt="Bindusha Bavurupudi" className="w-full h-full object-cover" />
+                  <img src={profileImg} alt="Bindusha Bavurupudi" className="w-full h-full object-cover" />
                 </div>
               </div>
               {/* Text */}
