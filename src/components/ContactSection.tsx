@@ -57,7 +57,7 @@ const ContactSection = () => {
 
         <ScrollReveal delay={0.4}>
           <p className="mt-16 text-xs text-muted-foreground font-mono tracking-wider">
-            © {new Date().getFullYear()} — Designed & Built with passion
+            © {new Date().getFullYear()} — Bindusha Bavurupudi
           </p>
         </ScrollReveal>
       </div>
