@@ -15,7 +15,7 @@ const contacts = [
   {
     icon: Mail,
     label: 'Email',
-    href: 'bindushabavurupudi2006@gmail.com',
+    href: 'mailto:bindushabavurupudi2006@gmail.com',
   },
 ];
 
