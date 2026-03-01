@@ -11,26 +11,26 @@ const projects = [
     github: 'https://github.com/bindushabavurupudi/Time-Track-AI',
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative project management tool with real-time updates, drag-and-drop boards, and team collaboration features for productive workflows.',
-    tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
-    live: '#',
-    github: '#',
+    title: 'ContentFlow – Social Media Content Scheduler',
+    description: 'A centralized social media management platform that enables users to schedule posts, track analytics, and manage multi-platform campaigns efficiently through automation and real-time insights.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'ShadCN', 'Express', 'Node', 'Supabase'],
+    live: 'https://glistening-syrniki-b8b2a4.netlify.app/',
+    github: 'https://github.com/bindushabavurupudi/ContentFlowFrontend',
   },
-  {
-    title: 'Social Media Dashboard',
-    description: 'An analytics dashboard for tracking social media performance with interactive charts, data visualizations, and automated reporting.',
-    tech: ['React', 'Express', 'Redis', 'Chart.js'],
-    live: '#',
-    github: '#',
-  },
-  {
-    title: 'Real-Time Chat Application',
-    description: 'A messaging platform with end-to-end encryption, group chats, file sharing capabilities, and real-time presence indicators.',
-    tech: ['React', 'Node.js', 'Socket.io', 'Firebase'],
-    live: '#',
-    github: '#',
-  },
+  // {
+  //   title: 'Social Media Dashboard',
+  //   description: 'An analytics dashboard for tracking social media performance with interactive charts, data visualizations, and automated reporting.',
+  //   tech: ['React', 'Express', 'Redis', 'Chart.js'],
+  //   live: '#',
+  //   github: '#',
+  // },
+  // {
+  //   title: 'Real-Time Chat Application',
+  //   description: 'A messaging platform with end-to-end encryption, group chats, file sharing capabilities, and real-time presence indicators.',
+  //   tech: ['React', 'Node.js', 'Socket.io', 'Firebase'],
+  //   live: '#',
+  //   github: '#',
+  // },
 ];
 
 const ProjectsSection = () => {
@@ -48,8 +48,8 @@ const ProjectsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <ScrollReveal key={project.title} delay={index * 0.1}>
-              <TiltCard>
+            <ScrollReveal key={project.title} delay={index * 0.1} className="h-full">
+              <TiltCard className="h-full">
                 <div className="glass-card neon-border p-8 h-full flex flex-col">
                   <h3 className="text-xl font-heading font-semibold text-foreground mb-3 tracking-wide">
                     {project.title}
